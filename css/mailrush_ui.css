@@ -1,0 +1,45 @@
+.mailrush_ui_group {
+    margin: 30px 0px;
+    background-color: #FFF;
+    width: max-content;
+    padding: 20px;
+    border-radius: 10px;
+}
+.mailrush_ui_valid{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0px 6px;
+    box-sizing: border-box;
+    background-color: #00C300;
+    border: 2px solid #00C300;
+}
+.mailrush_ui_invalid{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0px 6px;
+    box-sizing: border-box;
+    background-color: red;
+    border: 2px solid red;
+}
+.mailrush_ui_spr {
+    margin-right: 30px;
+}
+.mailrush_ui_spa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: max-content;
+}
+.mailrush_ui_spp {
+    width: max-content;
+}
